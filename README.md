@@ -67,6 +67,65 @@ This would explain why:
 
 ---
 
+## TODO 02: rc.netboot Investigation
+**Priority**: Critical (NEW)
+**Related Quirks**: 16, 20
+
+`/etc/rc.netboot` exists on the device. This is the NetBoot initialization script —
+normally only present on NetBoot client images or enterprise-managed machines.
+Directly relevant to the NetBoot/LAN enrollment lockdown investigation.
+
+**Tasks**:
+- [ ] Dump contents: `cat /etc/rc.netboot`
+- [ ] Check if NetBoot daemon is loaded: `sudo launchctl list | grep -i netboot`
+- [ ] Check NetBoot preferences: `defaults read /Library/Preferences/com.apple.NetBoot 2>/dev/null`
+- [ ] Check for NetBoot-related LaunchDaemons: `ls /System/Library/LaunchDaemons/ | grep -i netboot`
+- [ ] Check boot image source: `nvram boot-device`, `nvram boot-args`
+- [ ] Check if rc.netboot was recently modified: `stat /etc/rc.netboot`
+- [ ] Check if NetBoot shadow file exists: `ls -la /var/netboot/ 2>/dev/null`
+- [ ] Verify if NetBoot is active: `ifconfig | grep -B5 "en0"`, look for NetBoot DHCP options
+
+---
+
+## TODO 03: krb5.keytab Investigation
+**Priority**: Critical (NEW)
+**Related Quirks**: 11, 17
+
+`/etc/krb5.keytab` exists. This file stores Kerberos principal keys for machine
+authentication. It should NOT exist on a personal device with no enterprise or
+Active Directory enrollment. Presence indicates the device has been (or is)
+Kerberos-authenticated to a realm.
+
+**Tasks**:
+- [ ] List keytab principals: `klist -k /etc/krb5.keytab` (may need sudo)
+- [ ] Check keytab modification time: `stat /etc/krb5.keytab`
+- [ ] Check Kerberos configuration: `cat /etc/krb5.conf` (if exists), `cat /Library/Preferences/edu.mit.Kerberos 2>/dev/null`
+- [ ] Check for active Kerberos tickets: `klist 2>/dev/null`
+- [ ] Check AD binding state: `dsconfigad -show 2>/dev/null`
+- [ ] Verify keytab permissions: `ls -la /etc/krb5.keytab`
+- [ ] Cross-reference with Platform SSO (Quirk 17) — Kerberos keytab + Platform SSO =
+      enterprise authentication infrastructure staged on personal device
+
+---
+
+## TODO 04: hosts.equiv Investigation
+**Priority**: High (NEW)
+**Related Quirks**: 16
+
+`/etc/hosts.equiv` exists. This file defines trusted hosts for r-commands
+(rlogin, rsh, rcp). On stock macOS it typically exists but is empty. If it
+contains entries, it establishes trust relationships the user didn't configure.
+
+**Tasks**:
+- [ ] Dump contents: `cat /etc/hosts.equiv`
+- [ ] Check modification time: `stat /etc/hosts.equiv`
+- [ ] Cross-reference any hostnames against network scan (Quirk 15)
+- [ ] Check if r-services are enabled: `sudo launchctl list | grep -E 'rlogind|rshd|rexecd'`
+- [ ] Check if r-services LaunchDaemons exist: `ls /System/Library/LaunchDaemons/ | grep -E 'rlogin|rsh|rexec'`
+
+---
+
+
 ## TODO 02: Screenshot Filename Byte Analysis
 **Priority**: High
 **Related Quirks**: 01, 03, 05
