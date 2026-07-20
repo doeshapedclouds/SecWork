@@ -37,8 +37,8 @@ Tam <3
 
 ```
 ROOT: DEVICE COMPROMISE OBJECTIVE
-│ Goal: Achieve server-side MDM enrollment bound to hardware identity,
-│       cross-platform persistence, transport-independent payload delivery
+│ Goal: Achieve server-side MDM level enrollment, non-visible to client side, based off of the hardware identity,
+│       allowing for cross-platform persistence, transport-independent payload delivery
 │
 ├── STAGE 1: INITIAL ACCESS / DELIVERY
 │   │
