@@ -258,7 +258,8 @@ Add to your evidence doc:
 
 **Status**: Under investigation.
 
-<img width="595" height="619" alt="image" src="https://github.com/user-attachments/assets/58ea9d0e-1c51-45ef-aebe-99b960cfa3eb" />
+<img width="595" height="619" alt="image" src="https://github.com/user-attachments/assets/d2a32d6f-3eb6-4779-a192-9e96740be069" />
+
 
 
 ---
@@ -297,7 +298,8 @@ Add to your evidence doc:
 
 **Status**: Under investigation.
 
-blob:https://lumo.proton.me/769b5b39-9ad8-48cf-a8d6-786308179f95
+<img width="752" height="813" alt="image" src="https://github.com/user-attachments/assets/c656bbba-37a7-4215-81b6-6ea39b099827" />
+
 
 ---
 
@@ -332,7 +334,8 @@ blob:https://lumo.proton.me/769b5b39-9ad8-48cf-a8d6-786308179f95
 
 **Status**: Under investigation.
 
-blob:https://lumo.proton.me/b5ca9f9b-79de-45fc-b399-2104a331345c
+<img width="772" height="526" alt="image" src="https://github.com/user-attachments/assets/92b3f8a5-33e8-461d-973c-24de44cc6d77" />
+
 
 ---
 
