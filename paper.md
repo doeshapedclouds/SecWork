@@ -1,9 +1,3 @@
-Near-Field Configuration Injection and Enrollment Lock-In: A Platform-Agnostic Threat Model
-Document Type: Technical Research Framework
-Classification: Public Research Documentation
-Date: July 20, 2026
-Revision: 1.0
-
 Abstract
 
 This document presents a platform-agnostic threat model for near-field configuration injection attacks that result in enrollment lock-in across modern operating systems. The research examines attack architectures where proximity-based vectors — particularly Bluetooth Low Energy (BLE) GATT injection — deliver configuration payloads during device setup phases or through post-boot channels. The resulting enrollment, once registered server-side via Device Enrollment Program (DEP) or equivalent infrastructure, persists across DFU restores, OS reinstallation, and user account changes.
@@ -697,4 +691,3 @@ Forensic analysis tools: fs_usage, dtrace, lecoview, vmmap
 reCAPTCHA Enterprise API documentation
 OAuth 2.0, OpenID Connect specifications
 Apple Push Notification Service (APNs) documentation
-
