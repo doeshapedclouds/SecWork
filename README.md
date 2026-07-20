@@ -278,4 +278,38 @@ Contact through established security channels.
 
 ---
 
+/etc/krb5.keytab` exists. This file does NOT ship with stock macOS. It is only
+created when a machine is bound to a Kerberos realm (Active Directory, OpenDirectory,
+or enterprise identity provider). Its presence on a personal device purchased new
+from Apple with a fresh Apple account and no iCloud services is anomalous regardless
+of whether the file is empty or populated — the OS does not create this file speculatively.
+
+**Tasks**:
+- [ ] List keytab principals: `sudo klist -k /etc/krb5.keytab`
+- [ ] Check keytab modification time: `stat /etc/krb5.keytab`
+- [ ] Check Kerberos configuration: `cat /etc/krb5.conf 2>/dev/null; cat /Library/Preferences/edu.mit.Kerberos 2>/dev/null`
+- [ ] Check for active Kerberos tickets: `klist 2>/dev/null`
+- [ ] Check AD binding state: `dsconfigad -show 2>/dev/null`
+- [ ] Check DirectoryService for Kerberos realm: `dscl . -read /Config/KerberosKDC 2>/dev/null`
+- [ ] Verify keytab permissions and ownership: `ls -la /etc/krb5.keytab`
+- [ ] Cross-reference with Platform SSO (Quirk 17) and doshapedclouds MDM artifacts (Quirk 11)
+- [ ] Check if keytab was created during first-boot enrollment flow (Setup Assistant window)
+
+
+**Priority**: High
+**Related Quirks**: 01, 13
+
+TCC database returns empty for Terminal.app Desktop access. No entry means no
+prompt was ever generated or the entry was stripped.
+
+**Tasks**:
+- [ ] Dump full user TCC database: `sqlite3 ~/Library/Application\ Support/com.apple.TCC/TCC.db "SELECT * FROM access ORDER BY service"`
+- [ ] Dump full system TCC database: `sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "SELECT * FROM access ORDER BY service"`
+- [ ] Check for MDM-enforced privacy restrictions: `profiles show -type configuration 2>/dev/null`
+- [ ] Check for privacy profile payloads: `profiles show -type profile 2>/dev/null`
+- [ ] Check if TCC database has been modified: `stat ~/Library/Application\ Support/com.apple.TCC/TCC.db`
+- [ ] Check for TCC bypass via MDM profile: `profiles show -type baseband 2>/dev/null`
+
+---
+
 *This repository is a research artifact, not a how-to guide. Defensive mitigations are included throughout.*
