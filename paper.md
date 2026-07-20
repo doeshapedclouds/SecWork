@@ -1,3 +1,6 @@
+Last login: Sun Jul 19 19:51:21 on ttys000
+aadmin@pink ~ % vim temp.md
+aadmin@pink ~ % cat temp.md 
 Near-Field Configuration Injection and Enrollment Lock-In: A Platform-Agnostic Threat Model
 Document Type: Technical Research Framework
 Classification: Public Research Documentation
@@ -672,3 +675,4 @@ reCAPTCHA Enterprise API documentation
 OAuth 2.0, OpenID Connect specifications
 Apple Push Notification Service (APNs) documentation
 End of Document
+aadmin@pink ~ % 
