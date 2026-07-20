@@ -15,6 +15,7 @@ Primary Vector: Bluetooth LE Profile Injection
 │  ──> com.apple.configurationprofiles service abuse         │
 └─────────────────────────────────────────────────────────────┘
 
+
 Secondary Pivot Points (Downstream Services)
 Component	Theoretical Abuse Path	Persistence Mechanism
 CUPS	Malicious print job → /var/spool/cups → config overwrite	PPD manipulation, scheduler daemon hooks
