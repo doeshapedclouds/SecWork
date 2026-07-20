@@ -147,6 +147,5 @@ System Information reports Bluetooth controller with NULL value while chipset, f
 - Investigation theme: BLE GATT vectors via assistive devices (braille displays) as near-field code injection surface
 
 **Status**: Under investigation.
-
-<img width="1920" height="1080" alt="Screenshot 2026-07-19 at 8 52 36 PM" src="https://github.com/user-attachments/assets/95671aa0-d323-4f8b-8a27-2ca90aa67239" />
+<img width="809" height="242" alt="Screenshot 2026-07-19 at 8 57 18 PM" src="https://github.com/user-attachments/assets/0ce40cc2-3490-4174-beb6-0c889feaa01a" />
 
