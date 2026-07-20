@@ -1,0 +1,41 @@
+=== SYSTEM IDENTIFICATION ===
+Collection Date: Thu Jul 16 13:37:07 PDT 2026
+Hostname: pink.local
+Username: aadmin
+
+--- Hardware Information ---
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Neo
+      Model Identifier: Mac17,5
+      Model Number: MHFH4LL/A
+      Chip: Apple A18 Pro
+      Total Number of Cores: 6 (2 Performance and 4 Efficiency)
+      Memory: 8 GB
+      System Firmware Version: 18000.121.3
+      OS Loader Version: 18000.121.3
+      Serial Number (system): KCFMW94G3Y
+      Hardware UUID: BC096937-73B9-5E89-8C45-DF54169B6EF3
+      Provisioning UDID: 00008140-001A382E0AE1801C
+      Activation Lock Status: Disabled
+
+
+--- Software Information ---
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 26.5.2 (25F84)
+      Kernel Version: Darwin 25.5.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Safe
+      Computer Name: aadmin’s MacBook Neo
+      User Name: aadmin (aadmin)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 1 day, 15 hours, 10 minutes
+
+
+--- Full System Profile ---

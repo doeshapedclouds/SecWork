@@ -1,0 +1,594 @@
+[0;32m[SECTION: 0.1_NVRAM_Bluetooth_State][0m
+[SECTION: 0.1_NVRAM_Bluetooth_State]
+bluetoothExternalDongleFailed	%00
+bluetoothInternalControllerInfo	%00%00%00%00%00%00%00%00\%13%acDT%b9
+
+[0;32m[SECTION: 0.2_SystemProfiler_Bluetooth][0m
+[SECTION: 0.2_SystemProfiler_Bluetooth]
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: NULL
+          State: Off
+          Chipset: MTK_7932
+          Discoverable: Off
+          Firmware Version: HCI Revision:2308, LMP Subrevision:5101
+          Product ID: 0x4A45
+          Supported services: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+          Transport: PCIe
+          Vendor ID: 0x004C (Apple)
+
+
+[0;32m[SECTION: 0.3_IORegistry_Controller][0m
+[SECTION: 0.3_IORegistry_Controller]
+
+[0;32m[SECTION: 0.4_bluetoothd_State][0m
+[SECTION: 0.4_bluetoothd_State]
+2026-07-16 12:54:40.271683-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (libxpc.dylib) [com.apple.xpc:connection] [0xb752d5b00] invalidated because the client process (pid 13812) either cancelled the connection or exited
+2026-07-16 12:54:40.271712-0700 0x6da46    Info        0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] XPC connection ended: system_profiler:13812
+2026-07-16 12:54:43.027186-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:54:48.027317-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:54:53.027009-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:54:58.026956-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:03.026790-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:08.027267-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:10.256125-0700 0x6d649    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Core] [MacUserClient][NotificationEventHandler] -- Received Heart Beat notification -- HIDShim
+2026-07-16 12:55:13.026584-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:17.654524-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Core] SystemSettings Foreground App now changed : <private>
+2026-07-16 12:55:17.654525-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Core] Foreground App is now <private>
+2026-07-16 12:55:17.654561-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Audio] notify Foreground app changed :<private>
+2026-07-16 12:55:18.031429-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:23.031388-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:26.445467-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Core] SystemSettings Foreground App now changed : <private>
+2026-07-16 12:55:26.445468-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Core] Foreground App is now <private>
+2026-07-16 12:55:26.445493-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.Audio] notify Foreground app changed :<private>
+2026-07-16 12:55:28.031240-0700 0x6db0c    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:33.031166-0700 0x6dd48    Default     0x0                  13725  0    bluetoothd: [com.apple.bluetooth:Server.MacCoex] Posting Bluetooth Status Notification <private>
+2026-07-16 12:55:35.074593-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (libxpc.dylib) [com.apple.xpc:connection] [0xb752d5b00] activating connection: mach=false listener=false peer=true name=com.apple.bluetooth.xpc.peer[13904].0xb752d5b00
+2026-07-16 12:55:35.074627-0700 0x6da46    Info        0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] XPC connection start: system_profiler:13904
+2026-07-16 12:55:35.074863-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] GetControllerInfo: , BlSt PoweredOff, DcsS Off, Chip MTK_7932, FastLE v1, Allowed: no, FrmN MT7932B1_OS_TypeB_0.1.133.0_260128190103.bin, FrmV HCI Revision:2308, LMP Subrevision:5101, PID: 0x4A45, VID: 0x004C, VIDS: Bluetooth, HCIT PCIe, InqS Off, LMPv 14 (6.0), SSrv: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+2026-07-16 12:55:35.074923-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (libxpc.dylib) [com.apple.xpc:connection] [0xb752d5b00] invalidated because the client process (pid 13904) either cancelled the connection or exited
+2026-07-16 12:55:35.074947-0700 0x6da46    Info        0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] XPC connection ended: system_profiler:13904
+2026-07-16 12:55:35.075303-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (libxpc.dylib) [com.apple.xpc:connection] [0xb752d5b00] activating connection: mach=false listener=false peer=true name=com.apple.bluetooth.xpc.peer[13904].0xb752d5b00
+2026-07-16 12:55:35.075312-0700 0x6da46    Info        0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] XPC connection start: system_profiler:13904
+2026-07-16 12:55:35.075380-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] CBDiscoveryGetDevices: 0xA00000 < Connections Pairing >, from system_profiler:13904
+2026-07-16 12:55:35.075440-0700 0x6da46    Default     0x0                  13725  0    bluetoothd: (libxpc.dylib) [com.apple.xpc:connection] [0xb752d5b00] invalidated because the client process (pid 13904) either cancelled the connection or exited
+2026-07-16 12:55:35.075452-0700 0x6da46    Info        0x0                  13725  0    bluetoothd: (CoreUtils) [com.apple.bluetooth:CBDaemonXPCConnection] XPC connection ended: system_profiler:13904
+
+[0;32m[SECTION: 0.5_Kext_Status][0m
+[SECTION: 0.5_Kext_Status]
+   81    0 0xfffffe00078e35d0 0xebe0     0xebe0     com.apple.iokit.IOBluetoothFamily (9.0.0) 1B883F7B-4178-3651-A7F8-B26C6619D0BD <69 29 27 9 8 7 6 5 3>
+
+[0;32m[SECTION: 1.1_SysDefaults_Read][0m
+[SECTION: 1.1_SysDefaults_Read]
+{
+    SpatialSoundProfileAllowed = 1;
+    enableGameControllerAutoSwitchMode = 1;
+    enableGameControllerUSBBluetoothPairing = 1;
+    move3PPLEMSToLegacyMode = 1;
+    move3PPLEMSToLegacyModeSerial = 1;
+}
+
+[0;32m[SECTION: 1.2_UserDefaults_Read][0m
+[SECTION: 1.2_UserDefaults_Read]
+{
+    lastNowPlayedTime = "1783843558.667049";
+}
+
+[0;32m[SECTION: 1.3_Preference_File_Locations][0m
+[SECTION: 1.3_Preference_File_Locations]
+Searching for Bluetooth preference files...
+
+
+/Users/aadmin/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
+/Users/aadmin/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist
+
+[0;32m[SECTION: 1.4_Grep_For_Injected_Values][0m
+[SECTION: 1.4_Grep_For_Injected_Values]
+grep: /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist.backup: Operation not permitted
+grep: /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist: Operation not permitted
+grep: /Library/Preferences/com.apple.apsd.plist: Permission denied
+grep: /Library/Preferences/com.apple.wifi.known-networks.plist: Operation not permitted
+grep: /Library/Preferences/com.apple.TimeMachine.plist: Operation not permitted
+grep: /Library/Preferences/OpenDirectory/Configurations/Search.plist: Permission denied
+grep: /Library/Preferences/OpenDirectory/Configurations/Contacts.plist: Permission denied
+grep: /Library/Preferences/OpenDirectory/opendirectoryd.plist: Permission denied
+grep: /Users/aadmin/Library/Preferences/com.apple.madrid.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.TV.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.AddressBook.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.homed.notbackedup.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.MobileSMS.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.homed.plist: Operation not permitted
+grep: /var/db/dslocal/nodes/Default: Permission denied
+Binary file /Library/Preferences/com.apple.bluetooth.plist matches
+
+[0;32m[SECTION: 1.5_Managed_Profiles_Check][0m
+[SECTION: 1.5_Managed_Profiles_Check]
+No matching profiles found
+
+[0;32m[SECTION: 2.1_LaunchDaemons][0m
+[SECTION: 2.1_LaunchDaemons]
+No bluetooth LaunchDaemons found
+
+[0;32m[SECTION: 2.2_LaunchAgents_System][0m
+[SECTION: 2.2_LaunchAgents_System]
+No bluetooth LaunchAgents found
+
+[0;32m[SECTION: 2.3_LaunchAgents_User][0m
+[SECTION: 2.3_LaunchAgents_User]
+No bluetooth user LaunchAgents found
+
+[0;32m[SECTION: 2.4_Login_Hooks][0m
+[SECTION: 2.4_Login_Hooks]
+No bluetooth login hooks found
+
+[0;32m[SECTION: 2.5_Cron_Tables][0m
+[SECTION: 2.5_Cron_Tables]
+No bluetooth cron entries found
+
+[0;32m[SECTION: 2.6_Script_Files_Search][0m
+[SECTION: 2.6_Script_Files_Search]
+find: /usr/local/bin: No such file or directory
+
+[0;32m[SECTION: 3.1_IOBluetoothFamily_Info][0m
+[SECTION: 3.1_IOBluetoothFamily_Info]
+-rw-r--r--  1 root  wheel  5824 Jun 24 19:29 /System/Library/Extensions/IOBluetoothFamily.kext/Contents/Info.plist
+
+[0;32m[SECTION: 3.2_Kext_Personality_Check][0m
+[SECTION: 3.2_Kext_Personality_Check]
+	<key>BuildMachineOSBuild</key>
+		<string>MacOSX</string>
+	<string>macosx</string>
+	<string>macosx26.5.internal</string>
+		<key>MacPro6_1 BRCM20702B0 Hub</key>
+				<key>kUSBDescriptorOverride</key>
+		<key>com.apple.kpi.mach</key>
+		<key>com.apple.kpi.mach</key>
+No address override keys found
+
+[0;32m[SECTION: 3.3_Kext_Strings_Search][0m
+[SECTION: 3.3_Kext_Strings_Search]
+
+[0;32m[SECTION: 4.1_Biome_Database_Location][0m
+[SECTION: 4.1_Biome_Database_Location]
+find: /Users/aadmin/Library/Application Support/Biome: No such file or directory
+
+[0;32m[SECTION: 4.2_Biome_BT_Files][0m
+[SECTION: 4.2_Biome_BT_Files]
+find: /Users/aadmin/Library/Application Support/Biome: No such file or directory
+
+[0;32m[SECTION: 4.3_Variant_Var_BT_Files][0m
+[SECTION: 4.3_Variant_Var_BT_Files]
+find: /private/var/networkd/Library: Permission denied
+find: /private/var/networkd/db: Operation not permitted
+find: /private/var/install: Permission denied
+find: /private/var/ma: Permission denied
+find: /private/var/spool/mqueue: Permission denied
+find: /private/var/spool/postfix/saved: Permission denied
+find: /private/var/spool/postfix/trace: Permission denied
+find: /private/var/spool/postfix/defer: Permission denied
+find: /private/var/spool/postfix/flush: Permission denied
+find: /private/var/spool/postfix/deferred: Permission denied
+find: /private/var/spool/postfix/corrupt: Permission denied
+find: /private/var/spool/postfix/public: Permission denied
+find: /private/var/spool/postfix/private: Permission denied
+find: /private/var/spool/postfix/incoming: Permission denied
+find: /private/var/spool/postfix/active: Permission denied
+find: /private/var/spool/postfix/maildrop: Permission denied
+find: /private/var/spool/postfix/hold: Permission denied
+find: /private/var/spool/postfix/bounce: Permission denied
+find: /private/var/spool/cups: Permission denied
+find: /private/var/jabberd: Permission denied
+find: /private/var/OOPJit: Operation not permitted
+find: /private/var/audit: Permission denied
+find: /private/var/root: Permission denied
+find: /private/var/lib/postfix: Permission denied
+find: /private/var/db/appinstalld: Operation not permitted
+find: /private/var/db/diskimagesiod: Permission denied
+find: /private/var/db/ExtensibleSSO/Configuration: Operation not permitted
+find: /private/var/db/os_eligibility: Operation not permitted
+find: /private/var/db/Spotlight: Operation not permitted
+find: /private/var/db/locationd: Permission denied
+find: /private/var/db/modelmanagerd: Permission denied
+find: /private/var/db/terminus: Permission denied
+find: /private/var/db/sysdiagnose/com.apple.sysdiagnose: Operation not permitted
+find: /private/var/db/DumpPanic: Operation not permitted
+find: /private/var/db/analyticsd: Permission denied
+find: /private/var/db/AppleIntelligencePlatform: Operation not permitted
+find: /private/var/db/rmd: Permission denied
+find: /private/var/db/knowledgegraphd: Permission denied
+find: /private/var/db/coreml: Permission denied
+find: /private/var/db/nsurlsessiond: Permission denied
+find: /private/var/db/com.apple.backgroundtaskmanagement: Operation not permitted
+find: /private/var/db/softwareupdate/Library: Permission denied
+find: /private/var/db/fpsd: Permission denied
+find: /private/var/db/hidd: Permission denied
+find: /private/var/db/installcoordinationd: Operation not permitted
+find: /private/var/db/Spotlight-V100: Operation not permitted
+find: /private/var/db/geod: Permission denied
+find: /private/var/db/oah: Operation not permitted
+find: /private/var/db/reportmemoryexception: Permission denied
+find: /private/var/db/Sandbox: Operation not permitted
+
+[0;32m[SECTION: 4.4_Paired_Device_Databases][0m
+[SECTION: 4.4_Paired_Device_Databases]
+find: /private/var/networkd/Library: Permission denied
+find: /private/var/networkd/db: Operation not permitted
+find: /private/var/install: Permission denied
+find: /private/var/ma: Permission denied
+find: /private/var/spool/mqueue: Permission denied
+find: /private/var/spool/postfix/saved: Permission denied
+find: /private/var/spool/postfix/trace: Permission denied
+find: /private/var/spool/postfix/defer: Permission denied
+find: /private/var/spool/postfix/flush: Permission denied
+find: /private/var/spool/postfix/deferred: Permission denied
+find: /private/var/spool/postfix/corrupt: Permission denied
+find: /private/var/spool/postfix/public: Permission denied
+find: /private/var/spool/postfix/private: Permission denied
+find: /private/var/spool/postfix/incoming: Permission denied
+find: /private/var/spool/postfix/active: Permission denied
+find: /private/var/spool/postfix/maildrop: Permission denied
+find: /private/var/spool/postfix/hold: Permission denied
+find: /private/var/spool/postfix/bounce: Permission denied
+find: /private/var/spool/cups: Permission denied
+find: /private/var/jabberd: Permission denied
+find: /private/var/OOPJit: Operation not permitted
+find: /private/var/audit: Permission denied
+find: /private/var/root: Permission denied
+find: /private/var/lib/postfix: Permission denied
+find: /private/var/db/appinstalld: Operation not permitted
+find: /private/var/db/diskimagesiod: Permission denied
+find: /private/var/db/ExtensibleSSO/Configuration: Operation not permitted
+find: /private/var/db/os_eligibility: Operation not permitted
+find: /private/var/db/Spotlight: Operation not permitted
+find: /private/var/db/locationd: Permission denied
+find: /private/var/db/modelmanagerd: Permission denied
+find: /private/var/db/terminus: Permission denied
+find: /private/var/db/sysdiagnose/com.apple.sysdiagnose: Operation not permitted
+find: /private/var/db/DumpPanic: Operation not permitted
+find: /private/var/db/analyticsd: Permission denied
+find: /private/var/db/AppleIntelligencePlatform: Operation not permitted
+find: /private/var/db/rmd: Permission denied
+find: /private/var/db/knowledgegraphd: Permission denied
+find: /private/var/db/coreml: Permission denied
+find: /private/var/db/nsurlsessiond: Permission denied
+find: /private/var/db/com.apple.backgroundtaskmanagement: Operation not permitted
+find: /private/var/db/softwareupdate/Library: Permission denied
+find: /private/var/db/fpsd: Permission denied
+find: /private/var/db/hidd: Permission denied
+find: /private/var/db/installcoordinationd: Operation not permitted
+find: /private/var/db/Spotlight-V100: Operation not permitted
+find: /private/var/db/geod: Permission denied
+find: /private/var/db/oah: Operation not permitted
+find: /private/var/db/reportmemoryexception: Permission denied
+find: /private/var/db/Sandbox: Operation not permitted
+find: /private/var/db/ctkd: Permission denied
+find: /private/var/db/lockdown: Operation not permitted
+find: /private/var/db/biome: Operation not permitted
+find: /private/var/db/KernelExtensionManagement/Staging: Operation not permitted
+find: /private/var/db/datadetectors: Permission denied
+find: /private/var/db/cmiodalassistants: Permission denied
+find: /private/var/db/DifferentialPrivacy: Operation not permitted
+find: /private/var/db/assetsubscriptiond/StagingLogs: Permission denied
+find: /private/var/db/assetsubscriptiond/history: Permission denied
+find: /private/var/db/com.apple.xpc.roleaccountd.staging: Permission denied
+find: /private/var/db/dslocal/nodes/Default: Permission denied
+find: /private/var/db/com.apple.findmy.findmybeaconingd: Permission denied
+find: /private/var/db/sudo: Permission denied
+find: /private/var/db/nearbyd: Permission denied
+find: /private/var/db/com.apple.security.cryptexd: Operation not permitted
+find: /private/var/db/MobileIdentityService: Operation not permitted
+find: /private/var/db/mmaintenanced: Permission denied
+find: /private/var/db/dhcpclient: Permission denied
+find: /private/var/db/timed: Permission denied
+find: /private/var/db/applepay: Permission denied
+find: /private/var/db/SystemKeys: Operation not permitted
+find: /private/var/db/darwindaemon: Permission denied
+find: /private/var/db/audiomxd/Library: Permission denied
+find: /private/var/db/securityagent: Permission denied
+find: /private/var/db/accessoryupdater: Permission denied
+find: /private/var/db/searchparty: Operation not permitted
+find: /private/var/db/CoreDuet: Operation not permitted
+find: /private/var/db/ConfigurationProfiles/Store: Operation not permitted
+find: /private/var/db/fseventsd: Permission denied
+find: /private/var/db/caches/opendirectory: Permission denied
+find: /private/var/at/tabs: Permission denied
+find: /private/var/at/tmp: Permission denied
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.ScreenTimeAgent: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.lockoutagent: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.progressd/ClassKit: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.exchangesync: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.LaunchServices.dv: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/dmd: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.SharedWebCredentials: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/0/com.apple.routined/dv: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.syncdefaultsd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.transparencyd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.iconservicesagent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.triald/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.ap.promotedcontentd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.Safari/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.appstoreagent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.imtransferservices.IMTransferAgent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.parsec-fbf/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/gamed/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.tipsd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.fileproviderd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.StoreKit.UIService/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.AMSUIPaymentViewService/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.passd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.chrono/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.calaccessd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/duetexpertd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.studentd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.parsecd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.identityservicesd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.sharingd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.shazamd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.bluetoothuserd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.storekit/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/homed/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.quicklook.ThumbnailsAgent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.pluginkit/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.donotdisturbd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.imagent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.imdpersistence.IMDPersistenceAgent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.amsengagementd/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/T/com.apple.icloud.searchpartyuseragent/TemporaryItems: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.WorkflowKit.BackgroundShortcutRunner.ShortcutsSandboxCache: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.WebKit.WebContent.Sandbox: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.siriactionsd.ShortcutsSandboxCache: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.WebKit.Networking.Sandbox: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.quicklook.ThumbnailsAgent/com.apple.QuickLook.thumbnailcache: Operation not permitted
+find: /private/var/folders/bq/zl3zqqrd5_s9w3c2czx951cw0000gn/C/com.apple.WebKit.GPU.Sandbox: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012m00008n/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010r000086/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/0: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000sm00006d/C: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b400002s/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000150000098/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012800008k/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000011h00008c/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000003000000r/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000s800006_/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000084000021/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000013800008t/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000tm00006n/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010w000087/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000108000082/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016h00009m/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000114000089/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000014r000096/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.ScreenTimeAgent: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.lockoutagent: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.Spotlight: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/dmd: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.routined/dv: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000006w00001q/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000144000091/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012r00008p/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000012400008j/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000xc00007b/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000010h000084/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016800009k/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000016c00009l/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000yw00007q/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_ngzzzzzvzzzzzy/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_ngzzzzzvzzzzzy/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000bh00002w/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.revisiond/com.apple.revisiond.temp: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.Spotlight: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/0/com.apple.LaunchServices.dv: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/T: Permission denied
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n000011w00008g/C: Permission denied
+find: /private/var/run/mds: Permission denied
+find: /private/var/protected/xprotect/db: Operation not permitted
+find: /private/var/protected/trustd/private: Operation not permitted
+find: /private/var/protected/sfanalytics: Operation not permitted
+find: /private/var/dirs_cleaner: Permission denied
+find: /private/var/backups: Permission denied
+find: /private/var/agentx: Permission denied
+
+[0;32m[SECTION: 5.1_MAC_Address_Hex_Sequence][0m
+[SECTION: 5.1_MAC_Address_Hex_Sequence]
+grep: /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist.backup: Operation not permitted
+grep: /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist: Operation not permitted
+grep: /Library/Preferences/com.apple.apsd.plist: Permission denied
+grep: /Library/Preferences/com.apple.wifi.known-networks.plist: Operation not permitted
+grep: /Library/Preferences/com.apple.TimeMachine.plist: Operation not permitted
+grep: /Library/Preferences/OpenDirectory/Configurations/Search.plist: Permission denied
+grep: /Library/Preferences/OpenDirectory/Configurations/Contacts.plist: Permission denied
+grep: /Library/Preferences/OpenDirectory/opendirectoryd.plist: Permission denied
+grep: /Users/aadmin/Library/Preferences/com.apple.madrid.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.TV.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.AddressBook.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.homed.notbackedup.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.MobileSMS.plist: Operation not permitted
+grep: /Users/aadmin/Library/Preferences/com.apple.homed.plist: Operation not permitted
+grep: /private/var/db/SystemKey: Operation not permitted
+grep: /private/var/db/appinstalld: Operation not permitted
+grep: /private/var/db/SystemPolicyConfiguration/SystemPolicy: Permission denied
+grep: /private/var/db/SystemPolicyConfiguration/Tickets: Permission denied
+grep: /private/var/db/SystemPolicyConfiguration/KextPolicy-shm: Permission denied
+grep: /private/var/db/SystemPolicyConfiguration/ExecPolicy-wal: Permission denied
+
+[0;32m[SECTION: 5.2_Log_Search_for_Nearby_Device][0m
+[SECTION: 5.2_Log_Search_for_Nearby_Device]
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-07-14 22:26:57.094911-0700 0x0        State       0x1deb               194    14   bluetoothd: CBDaemon State
+
+Up 4s (awake 4s), Identities SA 0 / Other 0 / Devices 0, Odeon no, WiFi critical no, Device Setup Unknown
+
+CBAdvertiserDaemon: CID 0xB1600009, clients 1, suD [],, siWU <13a7cca3-b161-426b-9bcf-099f83a69cec>
+CBMetricsDaemon: Discovery total/dropped: 3/0
+CBStackAddressMonitor: CA 52:FB:99:21:9F:B0, NC 78:29:34:83:6B:30, NC2 NULL
+CBStackController: state Unknown, discoverable Off, fastLE v1 (Local), inquiry Off, session yes
+
+== CBAccessoryDaemon: devices 0, discovery yes ==
+CBDiscovery, CID 0xB1600001, appID CBAccessoryDaemon: devices 0, discovery yes, DsFl 0x80000A00000 < Connections Pairing Attributes >
+
+== XPC Cnx: 5 ==
+locationd:177, CBAdvertiser, CID 0xD6D60001, advR 181.25 ms, CA 52:FB:99:21:9F:B0, NA 78:29:34:83:6B:30, ucas MicroLocation, nb2E 0x4 < MiLo >
+Direct CBAccessoryDaemon: devices 0, discovery yes, CBDiscovery, CID 0xB1600001, appID CBAccessoryDaemon: devices 0, discovery yes, DsFl 0x80000A00000 < Connections Pairing Attributes >
+systemstats:137, CBController, CID 0x69B80001
+WirelessRadioManagerd:308, CBDiscovery, CID 0x7B110001, appID com.apple.WirelessRadioManagerd, DsFl 0x80000200000 < Connections Attributes >
+audiomxd:311, CBDiscovery, CID 0x3DE50001, appID com.apple.audiomxd, DsFl 0x80000A00000 < Connections Pairing Attributes >
+
+Pref: 'btvcDefaultAdvRSSI' = '-45'
+Pref: 'move3PPLEMSToLegacyMode' = 'true' (legacy)
+Pref: 'move3PPLEMSToLegacyModeSerial' = '1' (legacy)
+Pref: 'SpatialSoundProfileAllowed' = 'true' (legacy)
+
+
+CBDaemon State End
+
+2026-07-16 12:46:40.037101-0700 0x5d75c    Default     0x0                  177    0    locationd: (CoreUtils) [com.apple.bluetooth:CBAdvertiser] Re-activate: CBAdvertiser, CID 0xD6D60001, advR 181.25 ms, CA 52:FB:99:21:9F:B0, NA 78:29:34:83:6B:30, ucas MicroLocation, nb2E 0x4 < MiLo >
+2026-07-16 12:46:40.387833-0700 0x6d65f    Default     0x0                  177    0    locationd: (CoreUtils) [com.apple.bluetooth:CBAdvertiser] Activated: CBAdvertiser, CID 0xD6D60001, advR 181.25 ms, CA 52:FB:99:21:9F:B0, NA 78:29:34:83:6B:30, ucas MicroLocation, nb2E 0x4 < MiLo >
+
+[0;32m[SECTION: 6.1_Bluetooth_Plist_Permissions][0m
+[SECTION: 6.1_Bluetooth_Plist_Permissions]
+ls: /Library/Preferences/com.apple.Bluetooth*: No such file or directory
+
+[0;32m[SECTION: 6.2_Modification_Times][0m
+[SECTION: 6.2_Modification_Times]
+/Library/Preferences/com.apple.bluetooth.plist
+find: /private/var/db/Preferences: No such file or directory
+
+[0;32m[SECTION: 7.1_PREF_BACKUP][0m
+[SECTION: 7.1_PREF_BACKUP]
+Creating preference backups...
+cp: /Library/Preferences/com.apple.Bluetooth*: No such file or directory
+
+[0;32m[SECTION: 7.2_DELETE_INJECTED_PREFS][0m
+[SECTION: 7.2_DELETE_INJECTED_PREFS]
+Attempting to delete SpatialSoundProfileAllowed...
+
+Attempting to delete move3PPLEMSToLegacyMode...
+
+Attempting to delete move3PPLEMSToLegacyModeSerial...
+
+[0;32m[SECTION: 7.3_NVRAM_CLEAR][0m
+[SECTION: 7.3_NVRAM_CLEAR]
+Clearing bluetooth NVRAM values...
+Error setting variable - 'bluetoothExternalDongleFailed': (iokit/common) privilege violation.
+Error setting variable - 'bluetoothInternalControllerInfo': (iokit/common) privilege violation.
+
+[0;32m[SECTION: 7.4_PREF_RELOAD_VERIFY][0m
+[SECTION: 7.4_PREF_RELOAD_VERIFY]
+Re-reading preferences after cleanup...
+{
+    enableGameControllerAutoSwitchMode = 1;
+    enableGameControllerUSBBluetoothPairing = 1;
+}
+
+[0;32m[SECTION: 7.5_BLUETOOTHD_RESTART][0m
+[SECTION: 7.5_BLUETOOTHD_RESTART]
+Attempting to restart bluetoothd...
+Could not kickstart service "com.apple.bluetoothd": 150: Operation not permitted while System Integrity Protection is engaged
+
+[0;32m[SECTION: 7.6_CACHE_CLEAR][0m
+[SECTION: 7.6_CACHE_CLEAR]
+Clearing Bluetooth caches...
+
+[0;32m[SECTION: 7.7_POST_CLEANUP_VERIFY][0m
+[SECTION: 7.7_POST_CLEANUP_VERIFY]
+Post-cleanup system_profiler...
+          Address: NULL
+          State: Off
+
+[0;32m[SECTION: 8.1_INVESTIGATION_SUMMARY][0m
+[SECTION: 8.1_INVESTIGATION_SUMMARY]
+================================================================================
+BLUETOOTH COMPROMISE INVESTIGATION SUMMARY
+================================================================================
+
+Date: Thu Jul 16 12:57:09 PDT 2026
+Machine: pink
+User: aadmin
+Safe Boot: YES/NO (check boot args)
+
+HARDWARE IDENTIFIED:
+- Controller: MediaTek MTK_7932
+- Transport: PCIe
+- Vendor ID: 0x004C (Apple)
+
+MAC ADDRESS ANALYSIS:
+- Hardware MAC (from NVRAM): 5C:13:AC:44:54:B9
+- Spoofed MAC (observed July 14): 52:FB:99:21:9F:B0
+- Nearby Target Device: 78:29:34:83:6B:30
+
+INJECTED PREFS FOUND:
+1. SpatialSoundProfileAllowed = 1
+2. move3PPLEMSToLegacyMode = 1
+3. move3PPLEMSToLegacyModeSerial = 1
+4. enableGameControllerAutoSwitchMode = 1
+5. enableGameControllerUSBBluetoothPairing = 1
+
+PERSISTENCE STATUS:
+- LaunchDaemons: CLEAN
+- LaunchAgents: CLEAN
+- Kext: Standard Apple (IOBluetoothFamily 9.0.0)
+- Pref Storage: NON-STANDARD (not in visible plist)
+
+CALIBRATION STATUS:
+- loadCalibrationData fault present since: July 10, 2026
+- Status: CORRUPTED/MISSING
+
+NEXT ACTIONS RECOMMENDED:
+1. Review Section 1 output - Determine exact preference storage location
+2. Review Section 2 output - Identify any unexpected persistence vectors
+3. Review Section 3 output - Check for kext-level MAC override mechanisms
+4. Review Section 4 output - Find cache databases for nearby device
+5. Execute remediation ONLY after confirming findings above
+
+================================================================================
+
+[0;32m[SECTION: 8.2_OUTPUT_FILES_LIST][0m
+[SECTION: 8.2_OUTPUT_FILES_LIST]
+total 88
+drwxr-xr-x   4 aadmin  staff    128 Jul 16 12:57 .
+drwx------+ 24 aadmin  staff    768 Jul 16 12:55 ..
+-rw-r--r--   1 aadmin  staff   1512 Jul 16 12:57 investigation_summary.txt
+-rw-r--r--   1 aadmin  staff  39880 Jul 16 12:57 results.txt
+
