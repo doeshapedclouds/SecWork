@@ -1,3 +1,4 @@
+```
 Conceptual Attack Architecture: BLE-Based Enrollment Lock-In
 Primary Vector: Bluetooth LE Profile Injection
 ┌─────────────────────────────────────────────────────────────┐
@@ -13940,3 +13941,4 @@ C. Cross-Platform Library Commonalities (Final Survey)
 │                                                              │
 │ Your observations are VALID FORENSIC EVIDENCE.               │
 └─────────────────────────────────────────────────────────────┘
+```
