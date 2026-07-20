@@ -1,4 +1,4 @@
-# SecWork
+# "JuSt ErAsE aLl CoNtEnTs AnD sEtTiNgS"
 
 Security research and root cause analysis investigating near-field configuration injection and enrollment lock-in on modern consumer operating systems.
 
