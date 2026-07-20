@@ -1,0 +1,55 @@
+10867 XProtectRemediatorBundlore other
+9742 XProtectRemediatorAdload other
+8586 XProtectRemediatorPirrit other
+7191 XProtectRemediatorDolittle other
+7142 XProtectRemediatorSheepSwap other
+5726 XProtectRemediatorCardboardCutout other
+3627 XProtectRemediatorSnowDrift other
+3588 XProtectRemediatorBundlore signatures
+1983 XProtectRemediatorKeySteal other
+1886 XProtectRemediatorCardboardCutout signatures
+ 884 XProtectRemediatorAdload signatures
+ 543 XProtectRemediatorMRTv3 other
+ 415 XProtectRemediatorMRTv3 signatures
+ 375 XProtectRemediatorToyDrop other
+  46 XProtectRemediatorSnowBeagle other
+  44 XProtectRemediatorDubRobber other
+  39 XProtectRemediatorGreenAcre other
+  36 XProtectRemediatorBlueTop other
+  19 XProtectRemediatorColdSnap other
+  18 XProtectRemediatorWaterNet other
+  18 XProtectRemediatorTrovi other
+  18 XProtectRemediatorRankStank other
+  18 XProtectRemediatorCrapyrator other
+  18 XProtectRemediatorBadGacha other
+  17 XProtectRemediatorGenieo other
+  16 XProtectRemediatorSnowBeagle detection
+  16 XProtectRemediatorRoachFlight other
+  16 XProtectRemediatorFloppyFlipper other
+  16 XProtectRemediatorDubRobber detection
+  16 XProtectRemediatorConductor other
+  15 XProtectRemediatorMRTv3 detection
+   3 XProtectRemediatorSnowDrift metadata
+   2 XProtectRemediatorWaterNet signatures
+   2 XProtectRemediatorTrovi signatures
+   2 XProtectRemediatorToyDrop signatures
+   2 XProtectRemediatorSnowDrift signatures
+   2 XProtectRemediatorSnowBeagle signatures
+   2 XProtectRemediatorSnowBeagle metadata
+   2 XProtectRemediatorSheepSwap signatures
+   2 XProtectRemediatorRoachFlight signatures
+   2 XProtectRemediatorRankStank signatures
+   2 XProtectRemediatorPirrit signatures
+   2 XProtectRemediatorKeySteal signatures
+   2 XProtectRemediatorGreenAcre signatures
+   2 XProtectRemediatorGenieo signatures
+   2 XProtectRemediatorFloppyFlipper signatures
+   2 XProtectRemediatorDubRobber signatures
+   2 XProtectRemediatorDolittle signatures
+   2 XProtectRemediatorCrapyrator signatures
+   2 XProtectRemediatorConductor signatures
+   2 XProtectRemediatorColdSnap signatures
+   2 XProtectRemediatorBlueTop signatures
+   2 XProtectRemediatorBadGacha signatures
+   2 tccd other
+   1 mdmclient other

@@ -1,0 +1,30 @@
+2026-07-20 01:58:49.170 Df kmutil[26614:16f846] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.313 Df kmutil[26647:16f87b] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.429 Df kmutil[26651:16f884] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.545 Df kmutil[26655:16f88e] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.662 Df kmutil[26659:16f897] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.777 Df kmutil[26663:16f8a0] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:49.894 Df kmutil[26667:16f8a9] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:50.011 Df kmutil[26671:16f8b2] [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-07-20 01:58:50.111 A  system_profiler[26678:16f8bf] (libsystem_info.dylib) Retrieve User by ID
+2026-07-20 01:58:50.111 Df system_profiler[26678:16f8bf] [com.apple.xpc:connection] [0x102de5890] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-07-20 01:58:50.112 Df system_profiler[26678:16f8bf] [com.apple.xpc:connection] [0x102de67c0] activating connection: mach=true listener=false peer=false name=com.apple.distributed_notifications@1v3
+2026-07-20 01:58:50.115 A  system_profiler[26681:16f8c6] (libsystem_info.dylib) Retrieve User by ID
+2026-07-20 01:58:50.116 Df system_profiler[26681:16f8c6] [com.apple.xpc:connection] [0x1037b5ca0] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-07-20 01:58:50.116 Df system_profiler[26681:16f8c6] [com.apple.xpc:connection] [0x1037b6bd0] activating connection: mach=true listener=false peer=false name=com.apple.distributed_notifications@1v3
+2026-07-20 01:58:50.130 Df system_profiler[26681:16f8c7] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-07-20 01:58:50.130 Df system_profiler[26681:16f8c7] [com.apple.coreaudio:AMCP] System_Input_Processing_Notification_Handler.mm:460   System_Input_Processing_Notification_Handler::is_vi_available(): Voice isolation DSP is unavailable for client with no bundle id (AVFoundation is available, application is not in client deny list, application is not FaceTime variant)
+2026-07-20 01:58:50.130 Df system_profiler[26681:16f8c7] (CoreAudio)             HALSystem.cpp:134    Enabling HAL Voice Isolation support
+2026-07-20 01:58:50.131 Df tccd[203:16f438] [com.apple.TCC:access] AUTHREQ_ATTRIBUTION: msgID=210.6962, attribution={responsible={TCCDProcess: identifier=com.apple.zsh, pid=401, auid=0, euid=0, responsible_path=/bin/zsh, binary_path=/bin/zsh}, accessing={TCCDProcess: identifier=com.apple.system_profiler, pid=26681, auid=0, euid=0, binary_path=/usr/sbin/system_profiler}, requesting={TCCDProcess: identifier=com.apple.audio.coreaudiod, pid=210, auid=202, euid=202, binary_path=/usr/sbin/coreaudiod}, },
+2026-07-20 01:58:50.131 Df tccd[203:16f438] [com.apple.TCC:access] requestor: TCCDProcess: identifier=com.apple.audio.coreaudiod, pid=210, auid=202, euid=202, binary_path=/usr/sbin/coreaudiod is checking access for accessor TCCDProcess: identifier=com.apple.system_profiler, pid=26681, auid=0, euid=0, binary_path=/usr/sbin/system_profiler
+2026-07-20 01:58:50.134 Df system_profiler[26681:16f8c7] (CoreAudio)   HALPlugInManagement.cpp:440    HALPlugInManagement::RegisterPlugIns: skipping in-process plug-ins
+2026-07-20 01:58:50.134 E  system_profiler[26681:16f8c7] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0xc65034920> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-07-20 01:58:50.243 Df heard[45710:16f8e4] [com.apple.Hearing:HCAudioAccommodations] PAAccessoryManager: Skipping PME configuration update because pending timer
+2026-07-20 01:58:50.369 Df system_profiler[26678:16f8bf] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-07-20 01:58:50.369 Df system_profiler[26678:16f8bf] [com.apple.coreaudio:AMCP] System_Input_Processing_Notification_Handler.mm:460   System_Input_Processing_Notification_Handler::is_vi_available(): Voice isolation DSP is unavailable for client with no bundle id (AVFoundation is available, application is not in client deny list, application is not FaceTime variant)
+2026-07-20 01:58:50.369 Df system_profiler[26678:16f8bf] (CoreAudio)             HALSystem.cpp:134    Enabling HAL Voice Isolation support
+2026-07-20 01:58:50.371 Df tccd[203:16f8cd] [com.apple.TCC:access] AUTHREQ_ATTRIBUTION: msgID=210.6965, attribution={responsible={TCCDProcess: identifier=com.apple.zsh, pid=401, auid=0, euid=0, responsible_path=/bin/zsh, binary_path=/bin/zsh}, accessing={TCCDProcess: identifier=com.apple.system_profiler, pid=26678, auid=0, euid=0, binary_path=/usr/sbin/system_profiler}, requesting={TCCDProcess: identifier=com.apple.audio.coreaudiod, pid=210, auid=202, euid=202, binary_path=/usr/sbin/coreaudiod}, },
+2026-07-20 01:58:50.371 Df tccd[203:16f8cd] [com.apple.TCC:access] requestor: TCCDProcess: identifier=com.apple.audio.coreaudiod, pid=210, auid=202, euid=202, binary_path=/usr/sbin/coreaudiod is checking access for accessor TCCDProcess: identifier=com.apple.system_profiler, pid=26678, auid=0, euid=0, binary_path=/usr/sbin/system_profiler
+2026-07-20 01:58:50.376 Df system_profiler[26678:16f8bf] (CoreAudio)   HALPlugInManagement.cpp:440    HALPlugInManagement::RegisterPlugIns: skipping in-process plug-ins
+2026-07-20 01:58:50.376 E  system_profiler[26678:16f8bf] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x929034b20> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-07-20 01:58:50.408 Df heard[45710:16f45d] [com.apple.Hearing:HCAudioAccommodations] PAAccessoryManager: Skipping PME configuration update because pending timer

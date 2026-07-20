@@ -1,0 +1,7 @@
+Snapshot for disk3s1s1 (1 found)
+|
++-- 9E3BA68C-FD48-4909-8929-36669DCB7894
+    Name:        com.apple.os.update-5B92CE4BA1034457A0921532291F4A4AD939CBE48D3A1381163A9AD3687D5694
+    XID:         190941
+    Purgeable:   No
+    NOTE:        This snapshot limits the minimum size of APFS Container disk3

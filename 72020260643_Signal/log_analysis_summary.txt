@@ -1,0 +1,532 @@
+=== PROCESS COUNT SUMMARY (Top 25) ===
+150002 BBEdit
+148956 contactsd
+96663 runningboardd
+91805 kmutil
+70482 launchd
+58056 dasd
+57130 trustd
+30646 airportd
+30265 heard
+26589 tccd
+25145 secd
+22437 com.apple.WebKit.GPU
+21508 Safari
+17930 corecaptured
+15294 filecoordinationd
+14455 XProtectRemediatorBundlore
+14229 deleted
+14124 WiFiAgent
+14116 cfprefsd
+13078 coreaudiod
+11876 com.apple.WebKit.Networking
+11552 bash
+10626 XProtectRemediatorAdload
+9834 gamepolicyd
+9096 watchdogd
+
+=== EVENT TYPE BREAKDOWN BY PROCESS ===
+149974 BBEdit	other
+124150 contactsd	other
+96663 runningboardd	runningboard
+91805 kmutil	other
+70482 launchd	other
+57278 dasd	other
+57130 trustd	other
+30418 airportd	other
+30265 heard	other
+26563 tccd	other
+25145 secd	other
+22434 com.apple.WebKit.GPU	other
+21302 Safari	other
+19696 contactsd	spotlight
+17930 corecaptured	wlan_capture
+14455 XProtectRemediatorBundlore	other
+14124 WiFiAgent	other
+14116 cfprefsd	other
+14103 deleted	other
+13078 coreaudiod	other
+11869 com.apple.WebKit.Networking	other
+11552 bash	other
+10626 XProtectRemediatorAdload	other
+9096 watchdogd	other
+8588 XProtectRemediatorPirrit	other
+8524 mDNSResponder	other
+8286 filecoordinationd	runningboard
+8244 mediaanalysisd	other
+7990 duetexpertd	other
+7612 XProtectRemediatorCardboardCutout	other
+7314 distnoted	other
+7193 XProtectRemediatorDolittle	other
+7144 XProtectRemediatorSheepSwap	other
+7008 filecoordinationd	other
+6257 symptomsd	other
+6151 bluetoothd	other
+5714 analyticsd	other
+5440 system_profiler	other
+5277 WindowServer	windowserver_input
+5209 gamepolicyd	runningboard
+5110 contactsd	runningboard
+4869 log	other
+4625 gamepolicyd	other
+4432 mobileassetd	other
+4154 BiomeAgent	other
+3841 ScopedBookmarkAgent	other
+3840 audioclocksyncd	other
+3740 pmset	other
+3712 photolibraryd	other
+3632 XProtectRemediatorSnowDrift	other
+3533 IntelligencePlatformComputeService	other
+3506 networkserviceproxy	other
+3451 UserEventAgent	other
+3229 apsd	other
+2233 Finder	other
+1998 corespotlightd	spotlight
+1995 cloudd	other
+1985 XProtectRemediatorKeySteal	other
+1905 spotlightknowledged.updater	other
+1634 xpcproxy	other
+1424 rtcreportingd	other
+1371 AXVisualSupportAgent	other
+1362 mediaremoted	other
+1360 defaults	other
+1321 WindowServer	other
+1205 secinitd	other
+1150 PerfPowerServices	other
+1135 parsecd	other
+1089 AppleSpell	other
+1083 opendirectoryd	other
+1000 spotlightknowledged	other
+ 979 CloudTelemetryService	other
+ 973 XProtectRemediatorMRTv3	other
+ 954 contextstored	other
+ 932 wifip2pd	other
+ 929 CursorUIViewService	other
+ 920 identityservicesd	other
+ 916 com.apple.geod	other
+ 844 remindd	other
+ 844 chronod	other
+ 778 dasd	spotlight
+ 772 BackgroundShortcutRunner	other
+ 771 fseventsd	other
+ 758 wifianalyticsd	other
+ 739 ContextStoreAgent	other
+ 712 locationd	other
+ 702 com.apple.Safari.SafeBrowsing.Service	other
+ 698 adprivacyd	other
+ 680 lsof	other
+ 676 pkd	other
+ 676 chronod	runningboard
+ 672 AddressBookSourceSync	other
+ 667 tipsd	other
+ 667 softwareupdated	other
+ 661 mlhostd	other
+ 655 XProtectPluginService	other
+ 655 spotlightknowledged.updater	spotlight
+ 642 routined	other
+ 619 sandboxd	other
+ 587 amsaccountsd	other
+ 581 iconservicesagent	other
+ 566 nsurlsessiond	other
+ 563 suggestd	other
+ 563 linkd	other
+ 525 systemstats	other
+ 508 powerd	other
+ 507 passd	other
+ 485 WindowManager	other
+ 482 containermanagerd	other
+ 469 AquaAppearanceHelper	other
+ 464 CommCenter	other
+ 453 PopupExtension	other
+ 448 com.apple.appkit.xpc.openAndSavePanelService	other
+ 435 coreduetd	other
+ 429 Terminal	other
+ 397 launchservicesd	other
+ 390 Dock	other
+ 385 PAH_Extension	other
+ 377 XProtectRemediatorToyDrop	other
+ 367 syncdefaultsd	other
+ 358 lsd	other
+ 356 configd	other
+ 351 keyboardservicesd	other
+ 339 log	driver_firmware
+ 334 NANDTaskScheduler	other
+ 333 triald_system	other
+ 330 coreauthd	other
+ 328 managedappdistributiond	other
+ 328 managedappdistributionagent	other
+ 327 dprivacyd	other
+ 315 nehelper	other
+ 310 WindowServer	runningboard
+ 310 UIKitSystem	runningboard
+ 309 mdmclient	other
+ 295 SafariBookmarksSyncAgent	other
+ 294 assistantd	other
+ 291 triald	other
+ 285 siriactionsd	other
+ 272 rapportd	other
+ 268 parsec-fbf	other
+ 267 com.apple.Safari.ContentBlockerLoader	other
+ 264 ViewBridgeAuxiliary	other
+ 263 syspolicyd	other
+ 263 loginwindow	other
+ 257 itunescloudd	other
+ 255 CacheDeleteExtension	other
+ 250 UIKitSystem	other
+ 245 sharingd	other
+ 241 spindump	other
+ 241 localizationswitcherd	other
+ 238 TextInputSwitcher	other
+ 233 appleeventsd	other
+ 231 QLPreviewGenerationExtension	other
+ 231 powerlogHelperd	other
+ 229 biomed	other
+ 228 airportd	driver_firmware
+ 227 accountsd	other
+ 225 MailCacheDelete	other
+ 224 ODDIMetricsExtension	other
+ 223 duetexpertd	spotlight
+ 220 TVCacheExtension	other
+ 220 spotlightknowledged	spotlight
+ 219 AquaAppearanceHelper	windowserver_input
+ 214 pboard	other
+ 210 MusicCacheExtension	other
+ 210 appstoreagent	other
+ 194 contentlinkingd	other
+ 192 SoftwareUpdateNotificationManager	other
+ 191 Finder	spotlight
+ 187 com.apple.quicklook.ThumbnailsAgent	other
+ 186 aned	other
+ 185 storekitagent	other
+ 182 ControlCenter	other
+ 180 nbagent	other
+ 176 Spotlight	spotlight
+ 174 CursorUIViewService	spotlight
+ 172 PerfPowerServicesSignpostReader	other
+ 168 mlhostd	runningboard
+ 164 deleted_helper	other
+ 163 useractivityd	other
+ 160 backupd-helper	other
+ 158 WallpaperAerialsExtension	other
+ 158 SafariBookmarksSyncAgent	runningboard
+ 157 searchpartyuseragent	other
+ 151 photoanalysisd	other
+ 148 WirelessRadioManagerd	other
+ 147 knowledge-agent	other
+ 145 WallpaperAgent	other
+ 144 talagentd	other
+ 141 Safari	spotlight
+ 140 SearchUploadWorker	other
+ 138 sharedfilelistd	other
+ 133 imagent	other
+ 129 contentlinkingd	spotlight
+ 126 ODDIExperimentationExtension	other
+ 126 AXVisualSupportAgent	runningboard
+ 124 ODDIPoirotExperimentationExtension	other
+ 121 neagent	other
+ 119 mobileassetd	spotlight
+ 117 Terminal	spotlight
+ 117 bird	other
+ 113 audioanalyticsd	other
+ 112 seputil	other
+ 112 online-auth-agent	other
+ 111 IPConfigurationHelper	other
+ 110 nfcd	other
+ 108 UsageTrackingAgent	other
+ 106 familycircled	other
+ 104 mds	other
+ 103 knowledgeconstructiond	other
+ 101 usbaudiod	other
+  99 ODDIPoirotMetricsExtension	other
+  95 SiriUploadWorker	other
+  95 com.apple.Safari.SandboxBroker	other
+  94 QuickLookUIService	other
+  93 systemsoundserverd	other
+  92 authd	other
+  91 extensionkitservice	other
+  89 timed	other
+  87 securityuploadd	other
+  86 deleted	spotlight
+  84 liquiddetectiond	other
+  83 UserEventAgent	spotlight
+  83 kernel	driver_firmware
+  82 nesessionmanager	other
+  81 biomesyncd	other
+  80 intelligencecontextd	other
+  79 kernel	other
+  77 linkd	runningboard
+  75 audioaccessoryd	other
+  74 XProtect	other
+  74 promotedcontentd	other
+  73 transparencyd	other
+  73 intelligenceplatformd	other
+  72 mediaanalysisd-access	other
+  72 com.apple.CodeSigningHelper	other
+  71 proactiveeventtrackerd	other
+  70 ospredictiond	other
+  67 aneuserd	other
+  66 XProtectRemediatorSnowBeagle	other
+  63 PnROnDeviceWorker	other
+  62 XProtectRemediatorDubRobber	other
+  60 ShortcutsViewService	other
+  59 VTDecoderXPCService	other
+  59 usernoted	other
+  59 keybagd	other
+  57 seld	other
+  56 modelmanagerd	other
+  56 mobileassetd	platform_error_handler
+  56 metrickitd	other
+  56 GeneralContentBlocker	other
+  55 callservicesd	other
+  54 diagnostics_agent	other
+  50 DisplayControls	other
+  49 webprivacyd	other
+  49 ImageIOXPCService	other
+  49 backupd	other
+  48 usernotificationsd	other
+  47 modelcatalogd	other
+  46 MacMailSearchLogProcessor	other
+  45 SocialContentBlocker	other
+  44 RepackagingWorker	other
+  43 thermalmonitord	other
+  43 SecurityContentBlocker	other
+  43 ScreenTimeAgent	other
+  43 PrivacyContentBlocker	other
+  43 OtherContentBlocker	other
+  43 CustomContentBlocker	other
+  43 CoreServicesUIAgent	other
+  43 amfid	other
+  42 MetricsExtension	other
+  42 DevicePropertiesExtension	other
+  42 BackgroundShortcutRunner	runningboard
+  42 AssetMetricsExtension	other
+  41 XProtectRemediatorGreenAcre	other
+  41 FeatureAccessAgent	other
+  40 suggestd	spotlight
+  40 deleted	runningboard
+  39 Safari	windowserver_input
+  39 calaccessd	other
+  38 XProtectRemediatorBlueTop	other
+  37 replayd	other
+  36 SiriTurnRestatementExtension	other
+  36 pkd	runningboard
+  36 ManagedClient	other
+  36 AXVisualSupportAgent	windowserver_input
+  35 TVCacheExtension	runningboard
+  35 SpeechSynthesisServerXPC	other
+  35 SiriUploadWorker	runningboard
+  35 SearchUploadWorker	runningboard
+  35 MusicCacheExtension	runningboard
+  35 MailCacheDelete	runningboard
+  35 CacheDeleteExtension	runningboard
+  31 findmylocateagent	other
+  28 textunderstandingd	other
+  28 osanalyticshelper	other
+  28 ODDIPoirotExperimentationExtension	runningboard
+  28 ODDIMetricsExtension	runningboard
+  28 akd	other
+  28 AddressBookSourceSync	runningboard
+  27 securityd	other
+  27 privatecloudcomputed	other
+  27 mobileactivationd	other
+  27 AudioComponentRegistrar	other
+  26 tccd	windowserver_input
+  26 Safari	runningboard
+  26 NotificationCenter	other
+  26 kernel	platform_error_handler
+  26 accessoryupdaterd	other
+  25 ContextService	other
+  24 securityd_system	other
+  24 naturallanguaged	other
+  24 followupd	other
+  23 homeenergyd	other
+  22 xprotectd	other
+  21 XProtectRemediatorColdSnap	other
+  21 remoted	other
+  21 PnROnDeviceWorker	runningboard
+  21 ODDIPoirotMetricsExtension	runningboard
+  21 ODDIExperimentationExtension	runningboard
+  21 MetricsExtension	runningboard
+  21 generativeexperiencesd	other
+  21 DockHelper	other
+  21 DevicePropertiesExtension	runningboard
+  21 audiomxd	other
+  21 AssetMetricsExtension	runningboard
+  20 XProtectRemediatorWaterNet	other
+  20 XProtectRemediatorTrovi	other
+  20 XProtectRemediatorRankStank	other
+  20 XProtectRemediatorCrapyrator	other
+  20 XProtectRemediatorBadGacha	other
+  20 XPCKeychainSandboxCheck	other
+  20 oahd	other
+  20 mediaanalysisd-access	spotlight
+  20 AppSSOAgent	other
+  19 XProtectRemediatorGenieo	other
+  19 dataaccessd	other
+  19 apfsd	other
+  18 XProtectRemediatorRoachFlight	other
+  18 XProtectRemediatorFloppyFlipper	other
+  18 XProtectRemediatorConductor	other
+  18 UARPUpdaterServiceUSBPD	other
+  18 localspeechrecognition	other
+  18 cameracaptured	other
+  18 BBEdit	spotlight
+  17 SafariNotificationAgent	other
+  17 ProtectedCloudKeySyncing	other
+  17 fileproviderd	other
+  16 wifivelocityd	other
+  16 recentsd	other
+  16 nehelper	spotlight
+  16 homed	other
+  16 ctkd	other
+  15 system_installd	other
+  15 powerd	windowserver_input
+  15 installd	other
+  15 InferenceExtension	other
+  15 imklaunchagent	other
+  15 geodMachServiceBridge	other
+  15 com.apple.Safari.ContentBlockerLoader	runningboard
+  15 AssetCache	other
+  14 storagekitd	other
+  14 RepackagingWorker	runningboard
+  14 MacMailSearchLogProcessor	runningboard
+  14 eligibilityd	other
+  14 corebrightnessd	other
+  14 CloudTelemetryService	runningboard
+  13 login	other
+  13 kernel	power_events
+  13 dmd	other
+  13 ContinuityCaptureAgent	other
+  12 SetStoreUpdateService	other
+  12 pbs	other
+  12 corespeechd	other
+  12 ControlCenter	spotlight
+  12 AquaAppearanceHelper	spotlight
+  11 Finder	runningboard
+  11 DesktopServicesHelper	other
+  11 countryd	other
+  11 amsengagementd	other
+  11 AccessibilityUIServer	other
+  10 diagnosticd	other
+  10 com.apple.Safari.SearchHelper	other
+  10 com.apple.cmio.registerassistantservice	other
+  10 com.apple.audio.SandboxHelper	other
+  10 com.apple.appkit.xpc.openAndSavePanelService	spotlight
+  10 cloudphotod	other
+  10 axassetsd	other
+  10 AirPlayXPCHelper	other
+   9 XprotectService	other
+   9 powerexperienced	other
+   9 PerfPowerTelemetryClientRegistrationService	other
+   9 inputanalyticsd	other
+   8 translationd	other
+   8 systemstats	windowserver_input
+   8 swtransparencyd	other
+   8 smd	other
+   8 remindd	spotlight
+   8 powerlogHelperd	runningboard
+   8 newsyslog	other
+   8 neagent	spotlight
+   8 mdbulkimport	other
+   8 LinkedNotesUIService	other
+   8 geoanalyticsd	other
+   8 findmydeviced	other
+   8 ecosystemd	other
+   8 Dock	windowserver_input
+   8 CoreLocationAgent	other
+   7 universalaccessd	other
+   7 tipsd	runningboard
+   7 Terminal	runningboard
+   7 SystemUIServer	other
+   7 SocialContentBlocker	runningboard
+   7 SiriTurnRestatementExtension	runningboard
+   7 SecurityContentBlocker	runningboard
+   7 screencaptureui	other
+   7 remindd	runningboard
+   7 QuickLookUIService	runningboard
+   7 QLPreviewGenerationExtension	runningboard
+   7 proactiveeventtrackerd	runningboard
+   7 PrivacyContentBlocker	runningboard
+   7 PopupExtension	runningboard
+   7 parsec-fbf	runningboard
+   7 OtherContentBlocker	runningboard
+   7 nbagent	runningboard
+   7 IntelligencePlatformComputeService	runningboard
+   7 InferenceExtension	runningboard
+   7 GeneralContentBlocker	runningboard
+   7 GamePolicyAgent	other
+   7 DisplayControls	runningboard
+   7 CustomContentBlocker	runningboard
+   7 com.apple.WebKit.Networking	runningboard
+   7 com.apple.Safari.SandboxBroker	runningboard
+   7 com.apple.hiservices-xpcservice	other
+   7 com.apple.dock.extra	other
+   7 com.apple.appkit.xpc.openAndSavePanelService	runningboard
+   7 BBEdit	runningboard
+   7 AirPlayUIAgent	other
+   6 TextInputMenuAgent	other
+   6 jetpackassetd	other
+   6 ImageThumbnailExtension	other
+   6 fontd	other
+   6 DockHelper	spotlight
+   5 ndoagent	other
+   5 ManagedSettingsAgent	other
+   5 	other
+   4 WallpaperImageExtension	other
+   4 sociallayerd	other
+   4 MTLCompilerService	other
+   4 mdbulkimport	spotlight
+   4 logind	other
+   4 iconservicesd	other
+   4 coresymbolicationd	other
+   4 appleaccountd	other
+   4 ANEStorageMaintainer	other
+   4 adid	other
+   3 webpushd	other
+   3 tipsd	spotlight
+   3 Terminal	windowserver_input
+   3 StatusKitAgent	other
+   3 siriactionsd	spotlight
+   3 SafariLaunchAgent	other
+   3 photolibraryd	spotlight
+   3 mmaintenanced	other
+   3 com.apple.WebKit.WebContent	other
+   3 com.apple.WebKit.GPU	windowserver_input
+   3 com.apple.Safari.History	other
+   3 BBShellCommandXPCService	other
+   3 BBEdit	windowserver_input
+   3 avconferenced	other
+   2 zsh	other
+   2 WallpaperAgent	runningboard
+   2 spindump	windowserver_input
+   2 SpeechSynthesisServerXPC	windowserver_input
+   2 QuickLookUIService	windowserver_input
+   2 QLPreviewGenerationExtension	windowserver_input
+   2 PopupExtension	windowserver_input
+   2 nbagent	windowserver_input
+   2 milod	other
+   2 IMTransferAgent	other
+   2 findmybeaconingd	other
+   2 donotdisturbd	other
+   2 DisplayControls	windowserver_input
+   2 CrashReporterSupportHelper	other
+   2 com.apple.Safari.SandboxBroker	windowserver_input
+   2 com.apple.appkit.xpc.openAndSavePanelService	windowserver_input
+   1 systemmigrationd	other
+   1 symptomsd-diag	other
+   1 swcd	other
+   1 socketfilterfw	other
+   1 siriknowledged	other
+   1 revisiond	other
+   1 replicatord	other
+   1 powerlogHelperd	spotlight
+   1 PasswordBreachAgent	other
+   1 ImageIOXPCService	windowserver_input
+   1 iCloudNotificationAgent	other
+   1 financed	other
+   1 CVMServer	other
+   1 ControlCenter	windowserver_input
+   1 com.apple.quicklook.ThumbnailsAgent	runningboard
+   1 com.apple.accessibility.mediaaccessibilityd	other
+   1 AuthenticationServicesAgent	other
+   1 askpermissiond	other
