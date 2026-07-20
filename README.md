@@ -35,6 +35,7 @@ Intended for review by Apple Security and other vendor security teams. Repositor
 
 Tam <3 
 
+```
 ROOT: DEVICE COMPROMISE OBJECTIVE
 │ Goal: Achieve server-side MDM enrollment bound to hardware identity,
 │       cross-platform persistence, transport-independent payload delivery
@@ -747,6 +748,8 @@ ROOT: DEVICE COMPROMISE OBJECTIVE
         ├── Switching language → Reload of localization files
         ├── Rebooting → NVRAM re-read, MDM check-in, cache re-seed
         └── Doing nothing (idle) → Screen saver, Power Nap, bg refresh
+
+```
 
 ## TODO 01: TFTP / auto_home Automount Persistence Vector
 **Priority**: Critical
