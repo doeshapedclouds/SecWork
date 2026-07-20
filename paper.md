@@ -1,5 +1,10 @@
-Abstract
+Near-Field Configuration Injection and Enrollment Lock-In: A Platform-Agnostic Threat Model
+Document Type: Technical Research Framework
+Classification: Public Research Documentation
+Date: July 20, 2026
+Revision: 1.0
 
+Abstract
 This document presents a platform-agnostic threat model for near-field configuration injection attacks that result in enrollment lock-in across modern operating systems. The research examines attack architectures where proximity-based vectors — particularly Bluetooth Low Energy (BLE) GATT injection — deliver configuration payloads during device setup phases or through post-boot channels. The resulting enrollment, once registered server-side via Device Enrollment Program (DEP) or equivalent infrastructure, persists across DFU restores, OS reinstallation, and user account changes.
 
 Key findings include:
@@ -11,7 +16,6 @@ Encoding and MIME type confusion create additional delivery surface
 Cache rotation and counter-forensic techniques obscure on-disk state from runtime state
 Multiple post-boot vectors maintain attack viability beyond initial OOBE window
 1. Executive Summary
-
 1.1 Research Objective
 This threat model explores configuration injection attack paths across modern operating systems, focusing on the intersection of proximity transport protocols, system daemon trust models, and enrollment infrastructure. The research addresses the question: how can configuration data arrive through untrusted sources yet be accepted by trusted system components without explicit user authorization?
 
@@ -29,7 +33,6 @@ Active exploitation guidance (defensive focus)
 Specific CVE references (architecture over implementation)
 Commercial product vulnerability disclosure
 2. Platform-Agnostic Attack Architecture
-
 2.1 Seven-Layer Model
 The attack architecture comprises seven layers, each dependent on the layer below it. The vulnerability resides not in any single component but in the trust assumptions at each inter-layer boundary.
 
@@ -94,7 +97,6 @@ The attack architecture comprises seven layers, each dependent on the layer belo
 │  Acoustic (ultrasonic), optical, magnetic coupling       │
 │  Power line injection, ground loop coupling              │
 └──────────────────────────────────────────────────────────┘
-
 2.2 Core Vulnerability Class
 The shared vulnerability across all modern operating systems at each layer boundary is: IPC and configuration intake systems trust the sender's identity without validating the payload's provenance.
 
@@ -107,7 +109,6 @@ ChromeOS	Bluetooth stack	System services	D-Bus variant
 A configuration blob arriving via XPC from bluetoothd is trusted because bluetoothd is a system process — but bluetoothd was merely a relay for untrusted proximity data that was never independently validated.
 
 3. Layer-by-Layer Analysis
-
 3.1 Layer 0: Physical Transport
 3.1.1 Attack-Relevant Properties
 Proximity transports operate outside traditional network security perimeters. Firewalls, intrusion detection systems, and network segmentation do not apply to BLE, NFC, UWB, or Wi-Fi Direct.
@@ -148,7 +149,6 @@ This is pre-configured on all macOS installations. Every macOS device accepts GA
 bluetoothd → IOBluetoothFamily (kernel dext) →
 brailleScreenInput (BSD daemon) →
 Accessibility Services / VoiceOver → cfprefsd
-
 The brailleScreenInput daemon runs with accessibility permissions and communicates configuration to preference domains. The daemon assumes braille GATT data is legitimate. When the display sends a configuration change via GATT, BSD propagates that to cfprefsd, which writes to the preference store. No signature verification is performed on the GATT payload itself.
 
 3.3.2 RunningBoard Interaction
@@ -205,7 +205,6 @@ RecoveryOS	Separate partition with its own OS; DFU may not fully replace
 SEP-anchored data	Secure Enclave storage untouched by DFU
 DEP/ABM record	Lives entirely on servers, not the device
 4. The Language Chooser Timing Attack
-
 4.1 Boot Sequence Timeline
 Phase	Action	Security State
 T0	BootROM executes	No protections
@@ -227,7 +226,6 @@ SIP enforcement	Fully active	Active, but config writes via system daemons bypass
 Network trust	Certificate pinning enforced	No baseline established
 Quarantine flags	Applied to untrusted sources	Bypassed for system daemon chain writes
 5. Runtime Persistence and Counter-Forensics
-
 5.1 Disk-vs-Runtime Gap
 On-disk inspection does not reflect the running system state. The attack transitions from initial delivery into runtime persistence where:
 
@@ -258,7 +256,6 @@ APFS snapshot overlay	Configuration injected into snapshot mount process	bless -
 Boot token / LocalPolicy	Boot process uses boot token influencing load	nvram -p | grep -i 'boot|policy'
 In-memory launchd overrides	Services loaded via launchctl without on-disk plists	launchctl print system/ vs disk inventory
 6. reCAPTCHA as Attack Infrastructure
-
 6.1 Architectural Significance
 reCAPTCHA occupies a unique position in the modern web trust landscape:
 
@@ -301,7 +298,6 @@ Score 0.0-0.4: Bot/scanner → serve benign page, leave no trace
 Critical Property: Security researchers using automated tools receive low score, see benign page, and move on. Only genuine human users trigger the enrollment flow.
 
 7. Encoding and MIME Type Attack Surface
-
 7.1 Configuration Profile MIME Types
 macOS / iOS:
 
@@ -329,7 +325,6 @@ Multipart	HTTP 206 Partial Content or multipart/mixed	Browser processes both par
 Base64 Data URI:
 
 data:application/x-apple-aspen-config;base64,<BASE64_DATA>
-
 Payload embedded in URL string, no separate HTTP request, network trace only shows captive portal page load.
 
 Blob URL:
@@ -337,7 +332,6 @@ Blob URL:
 const blob = new Blob([profileXML], {type: 'application/x-apple-aspen-config'});
 const url = URL.createObjectURL(blob);
 window.location.href = url; // profile handler fires
-
 Payload exists only in browser memory, no disk file until handler processes it, MIME type set by JavaScript not server response.
 
 Fragment Assembly Across Encounters:
@@ -356,7 +350,6 @@ Extraction: Canvas API reads pixel data, extracts LSBs from RGB channels, conver
 Enhanced: reCAPTCHA challenge images serve as carriers — user interacts with images building cover, Canvas API extracts payload from tile images while user solves visual challenge.
 
 8. Extended Attack Vectors
-
 8.1 HTTPD & Mail Subsystem Delivery
 Local HTTPD Exposure: If device has local web server running on localhost:8080, 8000, 5000, etc., captive portal JavaScript can POST payload via cross-origin fetch (if CORS allows). Payload lands in local web server's storage, later activated via app with network access reading from local server.
 
@@ -416,12 +409,10 @@ HTML/.mobileconfig Polyglot Example:
     <!-- Malicious MDM payload here -->
 </dict></plist>
 --></head><body><h1>Your WiFi Receipt</h1></body></html>
-
 Browser: renders HTML
 iOS/macOS Profile Handler: installs profile (reads XML inside comments)
 
 9. Sleep/Wake and Screen Lock Trust Transitions
-
 9.1 Sleep/Wake Injection Windows
 During Sleep:
 
@@ -458,7 +449,6 @@ All user-level services resume full function
 Attack surface: Lock screen widgets fetch network content while device locked (if DNS poisoned, widgets contact attacker server while screen locked). Response data stored in widget storage, on unlock read by other processes with shared container access.
 
 10. NTP and Timezone as Trust Weapons
-
 10.1 NTP Manipulation Cascade
 NTP is foundational because every trust mechanism depends on accurate time:
 
@@ -494,7 +484,6 @@ Logging confusion: Logs display in local timezone, investigator sees apparent ti
 Geolocation inference disruption: Geolocation-based security policies may be bypassed
 App behavior alteration: News/financial/travel apps show different content by timezone
 11. Staging Directory Topology
-
 11.1 macOS Staging Surface Map
 Directory	Purpose	Attack Relevance
 /Library/Updates/	Software update packages	Attacker injects, OS processes as update
@@ -522,7 +511,6 @@ Android:
 /data/misc/keystore/ — Key store staging
 /data/system/device_policies.xml — Device admin policies
 12. Zero-to-Cooked Progression Models
-
 12.1 Scenario 1: Brand New Device
 Day	Action	Compromise Status
 0	User purchases MacBook (sealed)	Clean
@@ -557,7 +545,6 @@ Month	Action	Status
 Time-to-cooked: 6+ months with slow exfiltration.
 
 13. Stealth Measures — End-to-End
-
 13.1 Stealth Stack
 Layer	Techniques
 Network	reCAPTCHA scoring, fragment assembly, steganography, DoH laundry, TLS with planted CA, low-and-slow exfiltration
@@ -577,7 +564,6 @@ Memory forensics	Blob URL construction in JS heap, fragmented storage
 Certificate pinning	Root CA planted, time skew for expired cert bypass
 DNS monitoring	DoH to attacker resolver, low-and-slow tunneling
 14. Everyday Actions That Advance Compromise
-
 14.1 Routine Behavior Kill Chain
 Action	Compromise Advancement
 Connecting to WiFi	Triggers captive portal, may hit attacker portal, DNS may already be poisoned
@@ -592,7 +578,6 @@ Plugging in USB-C dock	Dock presents as HID/network/display, Thunderbolt DMA acc
 Rebooting device	NVRAM re-read, LaunchDaemons reload, cfprefds cache re-seeds, MDM check-in fires
 Doing nothing (idle)	Power Nap runs, MDM polling, software update silent check hits poisoned DNS
 15. Cross-Platform Attack Tree
-
 ROOT NODE: DEVICE COMPROMISE OBJECTIVE
 │
 ├── BRANCH 1: FIRST BOOT / OOBE PATH
@@ -619,7 +604,6 @@ ROOT NODE: DEVICE COMPROMISE OBJECTIVE
     ├── Notification Click (Apple Tips, push notifications, email notifications)
     ├── Email Attachment ("receipt.pdf" = .mobileconfig, certificate files)
     └── Web Form Submission ("Configure WiFi" email entry, business email setup)
-
 Common Final Node (All Branches): Enrollment Lock-In
 
 Server-side DEP/ABM registration
@@ -628,7 +612,6 @@ MDM profile active with enforcement
 Counter-forensics deployed (cache rotation, quarantine suppression)
 Persistence: Survives DFU, OS reinstall, account change, network change
 16. Defensive Recommendations
-
 16.1 Immediate Mitigations
 Air-gap during OOBE: Do not connect to any network during Setup Assistant until after language selection. Complete setup offline and verify configuration before first network connection.
 Disable Bluetooth before first boot: Do not power on in environment with unknown BLE devices nearby.
@@ -647,7 +630,6 @@ NVRAM	Add integrity verification for boot-critical NVRAM variables	Medium (secur
 Prevent captive portal browser context from triggering profile installation. The captive portal browser should be sandboxed from .mobileconfig URL scheme handling. Profile installation should require explicit user navigation to Settings/System Preferences, not be triggerable from a web page that the OS forced the user to open.
 
 17. Open Research Questions
-
 17.1 Critical Unknowns
 What percentage of commercial devices ship with default "trust all peripherals" configurations?
 Can proximity-based injection survive full hardware replacement (motherboard swap)?
@@ -666,7 +648,6 @@ Which common SDKs have device management or certificate management capabilities?
 Do App Store review processes detect staged payload activation patterns?
 Can MDM-related entitlements be abused by non-enterprise apps?
 18. Conclusion
-
 This research presents a threat model for near-field enrollment lock-in supported by forensic evidence from active investigations. The architecture describes a configuration injection mechanism that:
 
 Exploits default trust configurations (braille display auto-accept) in accessibility subsystems
@@ -682,7 +663,6 @@ Implications: Server-side persistence (enrollment record, activation record, dev
 Recommended Priority: Blocking captive portal browsers from triggering profile installation eliminates the highest-probability attack path while requiring minimal user behavior change.
 
 References
-
 Apple Device Enrollment Program (DEP) / Apple Business Manager (ABM) documentation
 Bluetooth Core Specification v5.3 (GATT Profile)
 RFC 1305 (NTP), RFC 5905 (NTPv4)
@@ -691,3 +671,4 @@ Forensic analysis tools: fs_usage, dtrace, lecoview, vmmap
 reCAPTCHA Enterprise API documentation
 OAuth 2.0, OpenID Connect specifications
 Apple Push Notification Service (APNs) documentation
+End of Document
